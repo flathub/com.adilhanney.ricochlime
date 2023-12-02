@@ -35,7 +35,7 @@
 						"url": "https://api.github.com/repos/adil192/ricochlime/releases/latest",
 						"version-query": ".tag_name",
 						"url-query": ".assets[] | select(.name==\"Ricochlime_\" + $version + \"_Linux_x86_64.tar.gz\") | .browser_download_url",
-						"is-main-source": true
+						"is-main-source": false
 					}
 				},
 				{
