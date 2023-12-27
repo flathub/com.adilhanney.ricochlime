@@ -25,8 +25,8 @@
 			"sources": [
 				{
 					"type": "file",
-					"url": "https://github.com/adil192/ricochlime/releases/download/v1.1.0/Ricochlime_v1.1.0_Linux_x86_64.tar.gz",
-					"sha256": "92fad6e22b398ba4d3e6fe84c91d9fdebd34f34eeb9da0eb456c1fc70f466941",
+					"url": "https://github.com/adil192/ricochlime/releases/download/v1.1.2/Ricochlime_v1.1.2_Linux_x86_64.tar.gz",
+					"sha256": "69f09b2eb23bcdc93ec23f944948e8005c87f82e557bf7a39606f4390b93ffd9",
 					"only-arches": [
 						"x86_64"
 					],
@@ -40,8 +40,8 @@
 				},
 				{
 					"type": "file",
-					"url": "https://github.com/adil192/ricochlime/releases/download/v1.1.0/Ricochlime_v1.1.0_Linux_arm64.tar.gz",
-					"sha256": "eea6ad3d9a07573e75d72e278a09a34a14fe8d02244f4a1f2c3284eb30b9e323",
+					"url": "https://github.com/adil192/ricochlime/releases/download/v1.1.2/Ricochlime_v1.1.2_Linux_arm64.tar.gz",
+					"sha256": "847c8fda7d185fd72c5968808a1436e4c3c2aa3d9f75c076818497fec76fdb7a",
 					"only-arches": [
 						"aarch64"
 					],
