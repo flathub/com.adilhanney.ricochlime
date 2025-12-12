@@ -33,8 +33,6 @@ jobs:
         run: |
           APP_VERSION=$(./scripts/get-app-version.sh)
           echo "APP_VERSION=$APP_VERSION" >> $GITHUB_ENV
-          APP_COMMIT=$(./scripts/get-app-commit.sh)
-          echo "APP_COMMIT=$APP_COMMIT" >> $GITHUB_ENV
       - name: Validate APP_VERSION
         run: |
           # Since we're using this in the pull request inputs, ensure it's not malicious or malformed
@@ -57,7 +55,7 @@ jobs:
         with:
           repository: adil192/ricochlime
           path: ricochlime
-          ref: ${{ env.APP_COMMIT }}
+          ref: ${{ env.APP_VERSION }}
 
       - name: Update flutter version
         if: steps.update_found.outputs.update_found == 'true'
