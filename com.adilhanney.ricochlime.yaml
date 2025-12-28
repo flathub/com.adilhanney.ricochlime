@@ -43,8 +43,8 @@ modules:
       - pubspec-sources.json
       - type: git
         url: https://github.com/adil192/ricochlime.git
-        tag: v1.11.13+1
-        commit: d9d91a45bd853d55623b84fa989d69e042407ef9
+        tag: v1.11.14
+        commit: 6344b086014e2e32477f08b8ae27e0d1e24dc5c2
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+(?:\+.*)?)$
