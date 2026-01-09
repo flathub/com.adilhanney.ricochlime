@@ -39,8 +39,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/adil192/ricochlime.git
-        tag: v1.11.13+1
-        commit: d9d91a45bd853d55623b84fa989d69e042407ef9
+        tag: v1.11.14
+        commit: 6344b086014e2e32477f08b8ae27e0d1e24dc5c2
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+(?:\+.*)?)$
@@ -49,6 +49,6 @@ modules:
       # https://github.com/TheAppgineer/flatpak-flutter/issues/74
       - type: git
         url: https://github.com/flutter/flutter.git
-        tag: 3.38.4
-        commit: 66dd93f9a27ffe2a9bfc8297506ce066ff51265f
+        tag: 3.38.5
+        commit: f6ff1529fd6d8af5f706051d9251ac9231c83407
         dest: flutter
