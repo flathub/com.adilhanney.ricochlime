@@ -562,16 +562,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/image-4.6.0.tar.gz",
-        "sha256": "51555e36056541237b15b57afc31a0f53d4f9aefd9bd00873a6dc0090e54e332",
+        "url": "https://pub.dev/api/archives/image-4.7.2.tar.gz",
+        "sha256": "492bd52f6c4fbb6ee41f781ff27765ce5f627910e1e0cbecfa3d9add5562604c",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/image-4.6.0"
+        "dest": ".pub-cache/hosted/pub.dev/image-4.7.2"
     },
     {
         "type": "inline",
-        "contents": "51555e36056541237b15b57afc31a0f53d4f9aefd9bd00873a6dc0090e54e332",
+        "contents": "492bd52f6c4fbb6ee41f781ff27765ce5f627910e1e0cbecfa3d9add5562604c",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "image-4.6.0.sha256"
+        "dest-filename": "image-4.7.2.sha256"
     },
     {
         "type": "archive",
@@ -2672,10 +2672,5 @@
         "contents": "fb38626579fb345ad00e674e2af3a5c9b0cc4b9bfb8fd7f7ff322c7c9e62aef5",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "yaml_edit-2.2.2.sha256"
-    },
-    {
-        "type": "file",
-        "path": "package_config.json",
-        "dest": "flutter/packages/flutter_tools/.dart_tool"
     }
 ]
