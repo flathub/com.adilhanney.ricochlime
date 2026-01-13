@@ -49,18 +49,6 @@ jobs:
             echo "update_found=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Download app source
-        if: steps.update_found.outputs.update_found == 'true'
-        uses: actions/checkout@v6
-        with:
-          repository: adil192/ricochlime
-          path: ricochlime
-          ref: ${{ env.APP_VERSION }}
-
-      - name: Update flutter version
-        if: steps.update_found.outputs.update_found == 'true'
-        run: ./scripts/update-flutter.sh
-
       - name: Update pub.dev dependencies
         if: steps.update_found.outputs.update_found == 'true'
         run: ./scripts/update-manifest.sh
