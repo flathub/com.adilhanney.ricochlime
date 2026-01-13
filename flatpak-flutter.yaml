@@ -1,6 +1,6 @@
 app-id: com.adilhanney.ricochlime
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.llvm20
@@ -23,7 +23,7 @@ modules:
         aarch64:
           env:
             BUNDLE_PATH: build/linux/arm64/release/bundle
-      append-path: /usr/lib/sdk/llvm20/bin:/run/build/ricochlime/flutter/bin
+      append-path: /usr/lib/sdk/llvm20/bin:/run/build/ricochlime/submodules/flutter/bin
       prepend-ld-library-path: /usr/lib/sdk/llvm20/lib
       env:
         PUB_CACHE: /run/build/ricochlime/.pub-cache
@@ -39,16 +39,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/adil192/ricochlime.git
-        tag: v1.11.14
-        commit: 6344b086014e2e32477f08b8ae27e0d1e24dc5c2
+        tag: v1.12.3
+        commit: beb629d6931587103c4b241af0a55786fc5c58a0
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+(?:\+.*)?)$
-      # Hopefully we will be able to use `submodules/flutter` in the future
-      # but for now we have to clone manually to `./flutter`:
-      # https://github.com/TheAppgineer/flatpak-flutter/issues/74
-      - type: git
-        url: https://github.com/flutter/flutter.git
-        tag: 3.38.5
-        commit: f6ff1529fd6d8af5f706051d9251ac9231c83407
-        dest: flutter
