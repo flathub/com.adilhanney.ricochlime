@@ -42,8 +42,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/adil192/ricochlime.git
-        tag: v1.11.14
-        commit: 6344b086014e2e32477f08b8ae27e0d1e24dc5c2
+        tag: v1.12.3
+        commit: beb629d6931587103c4b241af0a55786fc5c58a0
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+(?:\+.*)?)$
