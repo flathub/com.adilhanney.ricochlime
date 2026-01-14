@@ -31,6 +31,8 @@ modules:
       - ./patches/remove_dev_dependencies.sh
       - ./patches/foss.sh
       - flutter config --no-cli-animations
+      - ./patches/remove_wasm_libs.sh
+      - sed -i '21i set(SOLOUD_BACKEND_ALSA OFF CACHE BOOL "" FORCE)' linux/CMakeLists.txt
       - flutter build linux --no-pub
       - cp -a ${BUNDLE_PATH}/. /app/bin/
       - install -Dm644 flatpak/com.adilhanney.ricochlime.desktop -t /app/share/applications/
