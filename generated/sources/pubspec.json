@@ -184,16 +184,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/equatable-2.0.7.tar.gz",
-        "sha256": "567c64b3cb4cf82397aac55f4f0cbd3ca20d77c6c03bedbc4ceaddc08904aef7",
+        "url": "https://pub.dev/api/archives/equatable-2.0.8.tar.gz",
+        "sha256": "3e0141505477fd8ad55d6eb4e7776d3fe8430be8e497ccb1521370c3f21a3e2b",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/equatable-2.0.7"
+        "dest": ".pub-cache/hosted/pub.dev/equatable-2.0.8"
     },
     {
         "type": "inline",
-        "contents": "567c64b3cb4cf82397aac55f4f0cbd3ca20d77c6c03bedbc4ceaddc08904aef7",
+        "contents": "3e0141505477fd8ad55d6eb4e7776d3fe8430be8e497ccb1521370c3f21a3e2b",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "equatable-2.0.7.sha256"
+        "dest-filename": "equatable-2.0.8.sha256"
     },
     {
         "type": "archive",
@@ -212,16 +212,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/ffi-2.1.4.tar.gz",
-        "sha256": "289279317b4b16eb2bb7e271abccd4bf84ec9bdcbe999e278a94b804f5630418",
+        "url": "https://pub.dev/api/archives/ffi-2.1.5.tar.gz",
+        "sha256": "d07d37192dbf97461359c1518788f203b0c9102cfd2c35a716b823741219542c",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/ffi-2.1.4"
+        "dest": ".pub-cache/hosted/pub.dev/ffi-2.1.5"
     },
     {
         "type": "inline",
-        "contents": "289279317b4b16eb2bb7e271abccd4bf84ec9bdcbe999e278a94b804f5630418",
+        "contents": "d07d37192dbf97461359c1518788f203b0c9102cfd2c35a716b823741219542c",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "ffi-2.1.4.sha256"
+        "dest-filename": "ffi-2.1.5.sha256"
     },
     {
         "type": "archive",
@@ -295,15 +295,15 @@
     },
     {
         "type": "git",
-        "url": "https://github.com/adil192/flutter_soloud.git",
+        "url": "https://github.com/alnitak/flutter_soloud.git",
         "commit": "f176d14316a8a00125f9091159a148be532850ff",
         "dest": ".pub-cache/git/flutter_soloud-f176d14316a8a00125f9091159a148be532850ff"
     },
     {
         "type": "shell",
         "commands": [
-            "mkdir -p .pub-cache/git/cache/flutter_soloud-5f21cd242b865fbcc7b22e35cf9d78e4b1d86e4f",
-            "cp -rf .pub-cache/git/flutter_soloud-f176d14316a8a00125f9091159a148be532850ff/.git/* .pub-cache/git/cache/flutter_soloud-5f21cd242b865fbcc7b22e35cf9d78e4b1d86e4f"
+            "mkdir -p .pub-cache/git/cache/flutter_soloud-1c2a46829c05dc20d1d4cfce73798a749fa07dbe",
+            "cp -rf .pub-cache/git/flutter_soloud-f176d14316a8a00125f9091159a148be532850ff/.git/* .pub-cache/git/cache/flutter_soloud-1c2a46829c05dc20d1d4cfce73798a749fa07dbe"
         ]
     },
     {
@@ -1303,16 +1303,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/watcher-1.2.0.tar.gz",
-        "sha256": "f52385d4f73589977c80797e60fe51014f7f2b957b5e9a62c3f6ada439889249",
+        "url": "https://pub.dev/api/archives/watcher-1.2.1.tar.gz",
+        "sha256": "1398c9f081a753f9226febe8900fce8f7d0a67163334e1c94a2438339d79d635",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/watcher-1.2.0"
+        "dest": ".pub-cache/hosted/pub.dev/watcher-1.2.1"
     },
     {
         "type": "inline",
-        "contents": "f52385d4f73589977c80797e60fe51014f7f2b957b5e9a62c3f6ada439889249",
+        "contents": "1398c9f081a753f9226febe8900fce8f7d0a67163334e1c94a2438339d79d635",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "watcher-1.2.0.sha256"
+        "dest-filename": "watcher-1.2.1.sha256"
     },
     {
         "type": "archive",
@@ -1817,6 +1817,20 @@
         "contents": "de1fce715ab013cdfb00befc3bdf0914bea5e409c3a567b7f8f144bc061611a7",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "extension_discovery-2.1.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/ffi-2.1.4.tar.gz",
+        "sha256": "289279317b4b16eb2bb7e271abccd4bf84ec9bdcbe999e278a94b804f5630418",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/ffi-2.1.4"
+    },
+    {
+        "type": "inline",
+        "contents": "289279317b4b16eb2bb7e271abccd4bf84ec9bdcbe999e278a94b804f5630418",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "ffi-2.1.4.sha256"
     },
     {
         "type": "archive",
